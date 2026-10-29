@@ -1,0 +1,13 @@
+{
+  "dataset": "transactions.csv",
+  "rows_inspected": 6362620,
+  "chunks_processed": 64,
+  "columns_found": 11,
+  "missing_required_columns": [],
+  "missing_values": {},
+  "duplicate_rows_within_chunks": 0,
+  "invalid_amount_rows": 0,
+  "invalid_transaction_type_rows": 0,
+  "invalid_fraud_label_rows": 0,
+  "status": "COMPLETED"
+}

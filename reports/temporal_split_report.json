@@ -1,0 +1,25 @@
+{
+  "train": {
+    "rows": 6082007,
+    "fraud": 5781,
+    "fraud_rate": 0.0009505086067806235,
+    "output_path": "data\\processed\\splits\\train.csv"
+  },
+  "validation": {
+    "rows": 191147,
+    "fraud": 1180,
+    "fraud_rate": 0.006173259323975788,
+    "output_path": "data\\processed\\splits\\validation.csv"
+  },
+  "test": {
+    "rows": 89466,
+    "fraud": 1252,
+    "fraud_rate": 0.01399414302640109,
+    "output_path": "data\\processed\\splits\\test.csv"
+  },
+  "excluded": {
+    "rows": 0,
+    "invalid_step_rows": 0,
+    "outside_configured_range": 0
+  }
+}

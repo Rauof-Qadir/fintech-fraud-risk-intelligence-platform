@@ -1,0 +1,65 @@
+{
+  "purpose": "descriptive_temporal_drift_analysis",
+  "sampling_fraction_per_chunk": 0.1,
+  "random_state": 42,
+  "splits": {
+    "train": {
+      "rows": 6082007,
+      "fraud_cases": 5781,
+      "fraud_rate": 0.0009505086067806235,
+      "sampled_rows": 608201
+    },
+    "validation": {
+      "rows": 191147,
+      "fraud_cases": 1180,
+      "fraud_rate": 0.006173259323975788,
+      "sampled_rows": 19115
+    },
+    "test": {
+      "rows": 89466,
+      "fraud_cases": 1252,
+      "fraud_rate": 0.01399414302640109,
+      "sampled_rows": 8947
+    }
+  },
+  "numeric_feature_psi_vs_train": {
+    "validation": {
+      "step": 12.321606504860904,
+      "amount": 0.008665888683565652,
+      "oldbalanceOrg": 0.005962737072042529,
+      "oldbalanceDest": 0.0041030979381759414,
+      "amount_to_origin_balance_ratio": 0.013148849308886906
+    },
+    "test": {
+      "step": 12.321606504860904,
+      "amount": 0.0015736403520586013,
+      "oldbalanceOrg": 0.020709699152531923,
+      "oldbalanceDest": 0.005165348333958,
+      "amount_to_origin_balance_ratio": 0.03500299677135643
+    }
+  },
+  "categorical_type_proportions": {
+    "train": {
+      "CASH_IN": 0.21964284833467884,
+      "CASH_OUT": 0.35291129083970596,
+      "DEBIT": 0.0064666121890624975,
+      "PAYMENT": 0.33778471261967674,
+      "TRANSFER": 0.083194536016876
+    },
+    "validation": {
+      "CASH_IN": 0.2254250588543029,
+      "CASH_OUT": 0.3132618362542506,
+      "DEBIT": 0.007690295579387915,
+      "PAYMENT": 0.360659168192519,
+      "TRANSFER": 0.09296364111953963
+    },
+    "test": {
+      "CASH_IN": 0.23795685704705488,
+      "CASH_OUT": 0.32156029954174586,
+      "DEBIT": 0.008494467419246674,
+      "PAYMENT": 0.3391080809209791,
+      "TRANSFER": 0.0928802950709735
+    }
+  },
+  "interpretation_note": "PSI is a descriptive screening statistic, not proof of causation or model degradation. Results depend on binning and sampling. Test results must not be used to tune the current model or threshold."
+}

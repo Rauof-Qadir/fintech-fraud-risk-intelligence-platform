@@ -1,0 +1,16 @@
+{
+  "model": "SGDClassifier",
+  "purpose": "baseline",
+  "threshold": 0.5,
+  "validation_rows": 191147,
+  "validation_fraud_cases": 1180,
+  "average_precision": 0.7101256270700138,
+  "precision": 0.10203375162267417,
+  "recall": 0.9991525423728813,
+  "f1": 0.18515901060070672,
+  "true_negatives": 179591,
+  "false_positives": 10376,
+  "false_negatives": 1,
+  "true_positives": 1179,
+  "training_rows": null
+}

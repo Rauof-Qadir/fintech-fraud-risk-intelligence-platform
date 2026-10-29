@@ -1,0 +1,18 @@
+{
+  "status": "FEASIBLE_POLICY_FOUND",
+  "selection_data": "validation",
+  "threshold": 0.87,
+  "max_alert_rate": 0.03,
+  "min_recall": 0.9,
+  "actual_alert_rate": 0.02753901447576996,
+  "recall": 0.9033898305084745,
+  "precision": 0.20250759878419453,
+  "alerts": 5264,
+  "false_positives": 4198,
+  "false_negatives": 114,
+  "estimated_business_cost": 38090.0,
+  "false_positive_cost_assumption": 5,
+  "false_negative_cost_assumption": 150,
+  "costs_are_illustrative": true,
+  "threshold_is_provisional": true
+}

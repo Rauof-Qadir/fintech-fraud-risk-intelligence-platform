@@ -1,0 +1,22 @@
+{
+  "rows": 191147,
+  "threshold": 0.87,
+  "alerts": 5264,
+  "alert_rate": 0.02753901447576996,
+  "score_mean": 0.08166464940408313,
+  "score_median": 0.03461270583337628,
+  "score_p90": 0.08026552794868859,
+  "score_p95": 0.8376187578783043,
+  "score_p99": 0.9700178414143581,
+  "average_precision": 0.7101256270700138,
+  "actual_fraud_cases": 1180,
+  "actual_fraud_rate": 0.006173259323975788,
+  "precision": 0.20250759878419453,
+  "recall": 0.9033898305084745,
+  "dataset": "validation",
+  "model_file": "models\\baseline_sgd.joblib",
+  "policy_file": "reports\\operating_policy.json",
+  "threshold_source": "validation_selected_operating_policy",
+  "threshold_is_provisional": true,
+  "scores_are_calibrated_probabilities": false
+}

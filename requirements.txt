@@ -1,0 +1,13 @@
+
+pandas
+numpy
+pydantic
+PyYAML
+pytest
+scikit-learn
+joblib
+fastapi
+uvicorn[standard]
+streamlit
+httpx
+python-multipart

@@ -1,0 +1,15 @@
+
+target_column: isFraud
+time_column: step
+
+train:
+  min_step: 1
+  max_step: 520
+
+validation:
+  min_step: 521
+  max_step: 631
+
+test:
+  min_step: 632
+  max_step: 743

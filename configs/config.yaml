@@ -1,0 +1,27 @@
+
+project:
+  name: fintech-fraud-risk-intelligence-platform
+  version: "0.1.0"
+
+data:
+  target_column: isFraud
+  amount_column: amount
+  transaction_type_column: type
+  chunk_size: 100000
+
+quality:
+  allowed_transaction_types:
+    - CASH_IN
+    - CASH_OUT
+    - DEBIT
+    - PAYMENT
+    - TRANSFER
+
+  amount_must_be_non_negative: true
+
+model:
+  random_state: 42
+
+business:
+  false_positive_cost: 5
+  false_negative_cost: 150
