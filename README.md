@@ -20,6 +20,14 @@ The platform combines **leakage-aware data preparation, temporal model evaluatio
 
 ---
 
+## Dashboard
+
+ ![Overview](/docs/12.png)
+ ![Online](/docs/13.png)
+ ![Batch](/docs/14.png)
+ ![Monitoring](/docs/15.png)
+
+
 ## 📌 Table of Contents
 
 - [Project Overview](#-project-overview)
